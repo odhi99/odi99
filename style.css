@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@500&display=swap');
+body{
+    color: #2D2E37;
+    font-family: 'Roboto';
+    background-image: url(img/BackgroundHeader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 715px;
+    background-position: center center;
+    padding: 5rem;
+    overflow-x: hidden;
+}
+.nav-dis{
+    margin-left: 20px;
+    
+}
+.nav-dis a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff !important;
+}
+.nav-dis a:hover{
+    font-weight: 500;
+    color: #ffffff !important;
+}
+.nav-dis .active-font{
+    font-weight: 500;
+}
+.header-dis{
+    margin-top: 100px;
+}
+header h1{
+    color: #ffffff;
+    font-family: 'Ubuntu';
+    font-size: 55px;
+}
+.base{
+    color: #868686;
+    margin-top: 30;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-hire{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    background-color:#00BC9A;
+    font-size: 20px;
+    padding: 12px 40px;
+    margin-right: 20px;
+    
+}
+.btn-hire:hover{
+    color: #ffffff;
+    background-color: #00D6AF;
+}
+.button-costum-header{
+    margin-top: 40px;
+}
+.btn-view{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #32343E;
+}
+.btn-view:hover{
+    color:#ffffff;
+    background-color: #373843;
+}
+.icon-custom{
+    margin-top: 36px;
+}
+.icon-custom p{
+    color: #868686;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 18px;
+    margin-right: 50px;
+}
+.about{
+    margin-top: 300px;
+}
+.span-about{
+    margin-right: 14px;
+}
+.about h1{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.about p{
+    font-size: 16px;
+}
+.project{
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#00BC9A));
+    background-color: linear-gradient (#fff 0%, #00BC9A 100%);
+    margin-top: 120px;
+}
+.project h1, .project p{
+    text-align: center;
+}
+.project h1{
+    padding-top: 80px;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    font-size: 36px;
+}
+.project p{
+    margin-top: 12px;
+    font-size: 16px;
+}
+.project img{
+    margin-top: 40px;
+}
+.project img:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 25px #2D2E37;
+}
+.btn-see-more{
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.project a{
+    text-decoration: none;
+    color: #2D2E37;
+    padding: 12px 32px;
+    border: 2px solid #2D2E37;
+    font-size: 20px;
+}
+.project a:hover{
+    border: 3px solid #2D2E37;
+    border-radius: 10px;
+}
+.blog .title-blog h1{
+    margin-top: 120px;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'ubuntu';
+}
+.blog p{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-costum-blog{
+    margin-top: 40px;
+    border: 0.1px solid #828282;
+}
+.card-costum-blog:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #828282;
+}
+.kategori-blog{
+    color: #00BC9A;
+    font-size: 14px;
+    font-weight: 400;
+}
+.title-blog-card{
+    margin-top: -10;
+    font-size: 20px;
+    font-weight: 500;
+}
+.time-blog{
+    margin-top: -10;
+    font-size: 14px;
+    font-weight: 300;
+    color: #828282;
+}
+.content-card{
+    padding-left: 14px;    
+}
+.button-blog{
+    margin-top: 40px;
+}
+.blog a{
+    color: #00BC9A;
+    text-decoration: none;
+    border: 2px solid #00BC9A;
+    font-size: 20px;
+    padding: 12px 32px;
+}
+.blog a:hover{
+    border: 3px solid #00D6AF;
+    border-radius: 8px;
+}
+.team{
+    margin-top: 120px;
+}
+.team h1{
+    font-family: 'Ubuntu';
+    font-size: 36px;
+    font-weight:500 ;
+}
+.team p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+.card-team{
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.team img{
+    width: 80px;
+    margin: auto;
+    margin-top: 30px !important;
+}
+.name-team{
+    font-size: 16px !important;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.job-team{
+    font-size: 12px !important;
+    font-weight: 400;
+}
+.based-team{
+    font-size: 12px !important;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-bottom: 30px !important;
+}
